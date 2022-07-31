@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 16px;
+}
+
+header {
+  position: static;
+}
+
+.heading-description-para {
+  display: flex;
+}
+
+.extra-styling {
+  color: rgb(157, 154, 154);
+  font-style: italic;
+  font-family: sans-serif;
+  font-size: 14px;
+  padding: 8px 0 22px 0;
+}
+
+#material-symbols-outlined-1 {
+  padding: 0 12px 0 0;
+}
+
+#cheeseCake {
+  width: 100%;
+  height: auto;
+}
+
+.restaurant_menu-yeilds {
+  display: flex;
+  align-items: center;
+  padding: 24px 0 28px 0;
+}
+
+#material-symbols-outlined-2 {
+  padding: 0 6px 0 0;
+  color: rgb(246, 137, 97);
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.list li {
+  padding: 0 26px 22px 0px;
+  font-size: 12px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.flex-box-list-items {
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.82px;
+}
+
+#material-symbols-outlined-3 {
+  padding: 0 6px 0 0;
+}
+
+.all-h3 {
+  color: rgb(49, 48, 48);
+  font-style: italic;
+  font-weight: 400;
+  padding: 16px 0;
+}
+
+.ingredients-list {
+  list-style: none;
+  padding: 0;
+}
+
+.ingredients-list li input {
+  width: 20px;
+  height: 20px;
+}
+
+.ingredients-list li .checkbox-list {
+  padding: 0 12px;
+}
+
+.ingredients-list li span {
+  font-weight: bold;
+}
+
+.ingredients-list li {
+  font-size: 18px;
+  color: rgb(99, 98, 98);
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+}
+
+#instruction {
+  padding: 16px 0;
+}
+
+.instruction-list ol.instructions {
+  padding: 0;
+  list-style: none;
+}
+
+.instruction-list .instructions .flex {
+  display: flex;
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(99, 98, 98);
+  font-size: 18px;
+  padding: 8px 0;
+}
+
+.instruction-list .instructions .flex div.external-span {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  padding: 0 12px;
+  font-size: 22px;
+  height: 25px;
+  background-color: rgb(245, 157, 26);
+  border-radius: 4px;
+  color: white;
+  margin: 0 22px 0 0;
+}
+
+.instruction-list .instructions .flex .internal-span {
+  font-weight: bold;
+}

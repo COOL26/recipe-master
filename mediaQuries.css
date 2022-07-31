@@ -1,0 +1,42 @@
+@media screen and (min-width: 1015px) {
+  body {
+    padding: 56px 200px;
+  }
+  header h1 {
+    font-size: 24px;
+  }
+  header {
+    position: relative;
+  }
+  main {
+    width: 75%;
+  }
+  main h2 {
+    padding: 32px 0 0 0;
+  }
+  #card-section-in-desktopView .restaurant_menu-yeilds {
+    display: flex;
+  }
+  section#card-section-in-desktopView {
+    display: inline-block;
+    box-shadow: 2px 2px 8px #777777;
+    border-radius: 4px;
+    padding: 28px 28px 6px 28px;
+    position: absolute;
+    bottom: -300px;
+    right: 0;
+  }
+  section#card-section-in-desktopView ul#list-in-desktopView.list {
+    display: flex;
+    flex-direction: column;
+  }
+  section#card-section-in-desktopView
+    ul#list-in-desktopView.list
+    li.flex-box-list-items {
+    padding: 0 0 22px 0;
+  }
+  section.restaurant_menu-yeilds {
+    display: flex;
+    padding: 0 0 22px 0;
+  }
+}
